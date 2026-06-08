@@ -5,12 +5,12 @@
  * Exposes your KPI DealFlow pipeline as tools any AI agent can call.
  * Set KPIDEALFLOW_API_KEY to your key from kpidealflow.com/settings.
  *
- * Claude Desktop config example:
+ * Claude Desktop config (~/.claude/claude_desktop_config.json or %APPDATA%\Claude\):
  * {
  *   "mcpServers": {
  *     "kpi-dealflow": {
- *       "command": "node",
- *       "args": ["C:/Users/you/Projects/kpi-dealflow-mcp/index.js"],
+ *       "command": "npx",
+ *       "args": ["kpi-dealflow-mcp"],
  *       "env": { "KPIDEALFLOW_API_KEY": "kpid_your_key_here" }
  *     }
  *   }

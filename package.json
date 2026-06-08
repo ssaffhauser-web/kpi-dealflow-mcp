@@ -1,7 +1,7 @@
 {
   "name": "kpi-dealflow-mcp",
   "version": "1.0.0",
-  "description": "MCP server for KPI DealFlow — lets any AI agent manage your real estate pipeline",
+  "description": "MCP server for KPI DealFlow — connect any AI agent to your real estate pipeline",
   "type": "module",
   "main": "index.js",
   "bin": {
@@ -10,6 +10,22 @@
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "real-estate",
+    "crm",
+    "pipeline",
+    "kpi-dealflow",
+    "claude",
+    "ai-agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssaffhauser/kpi-dealflow-mcp.git"
+  },
+  "homepage": "https://kpidealflow.com",
+  "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.23.8"
