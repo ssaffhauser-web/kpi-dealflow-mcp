@@ -1,6 +1,6 @@
 {
   "name": "kpi-dealflow-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for KPI DealFlow — connect any AI agent to your real estate pipeline",
   "type": "module",
   "main": "index.js",
