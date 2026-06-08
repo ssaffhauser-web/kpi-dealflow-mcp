@@ -1,0 +1,20 @@
+{
+  "name": "kpi-dealflow-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for KPI DealFlow — lets any AI agent manage your real estate pipeline",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "kpi-dealflow-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
